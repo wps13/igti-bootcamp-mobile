@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal2"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="128dp"
+        android:layout_height="27dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <TextView
+        android:id="@+id/textViewLabelSalario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salário Bruto"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="249dp"
+        android:layout_height="28dp"
+        android:text="Calculadora de Salário Líquido"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <TextView
+        android:id="@+id/textViewLabelDependentes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número Dependentes"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <TextView
+        android:id="@+id/textViewLabelDescontos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Outros Descontos"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="126dp"
+        android:layout_height="26dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="128dp"
+        android:layout_height="27dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <Button
+        android:id="@+id/buttonCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_calcular"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#292B29"
+        app:rippleColor="#FFFFFF"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="483dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
