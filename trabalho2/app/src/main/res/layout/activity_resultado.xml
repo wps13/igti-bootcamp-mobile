@@ -11,8 +11,8 @@
         android:layout_width="76dp"
         android:layout_height="17dp"
         android:layout_marginTop="40dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginRight="76dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewSalarioLiquido" />
 
@@ -20,9 +20,9 @@
         android:id="@+id/textViewSalarioLiquido"
         android:layout_width="76dp"
         android:layout_height="17dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginRight="76dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewOutrosDescontos" />
 
@@ -30,9 +30,9 @@
         android:id="@+id/textViewOutrosDescontos"
         android:layout_width="76dp"
         android:layout_height="17dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginRight="76dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewIRPF" />
 
@@ -40,9 +40,9 @@
         android:id="@+id/textViewINSS"
         android:layout_width="76dp"
         android:layout_height="17dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginRight="76dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewSalarioBruto" />
 
@@ -50,9 +50,9 @@
         android:id="@+id/textViewIRPF"
         android:layout_width="76dp"
         android:layout_height="17dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="76dp"
-        android:layout_marginRight="76dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewINSS" />
 
@@ -160,10 +160,13 @@
         android:id="@+id/textPercent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="236dp"
         android:text="%"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintHorizontal_bias="0.31"
         app:layout_constraintStart_toEndOf="@+id/textViewDescontosPorcento"
-        tools:layout_editor_absoluteY="475dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewSalarioLiquido"
+        app:layout_constraintVertical_bias="0.975" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
